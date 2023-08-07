@@ -15,6 +15,6 @@ echo "# ${name}" > README.md
 sed "s/name/${name}/g" CMakeLists.txt
 
 #把文件转移到项目路径中
-mv !(init.sh) ..
-
-rm -rf ../cmakeTemple  
+mv * ../ 
+cd ..
+rm -rf cmakeTemple  init.sh
