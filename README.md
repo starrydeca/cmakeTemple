@@ -18,7 +18,7 @@
     git clone https://github.com/StarsDecade/cmakeTemple.git
 
     # 执行命令
-    ./init
+    ./init.sh
 
 ### 最后
 
